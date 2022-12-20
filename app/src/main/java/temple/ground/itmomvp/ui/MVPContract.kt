@@ -1,4 +1,4 @@
-package temple.ground.itmomvp
+package temple.ground.itmomvp.ui
 
 interface MVPContract {
     interface IView {
@@ -9,7 +9,8 @@ interface MVPContract {
 
     interface IPresenter {
         fun onScreenStart()
-        fun onButtonClick()
+        fun onLoadButtonClick()
+        fun onSaveButtonClick()
         fun onScreenDestroy()
     }
 }
